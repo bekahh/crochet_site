@@ -2,10 +2,11 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Work Sans", sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow: visible;
 }
 
 header {
@@ -14,18 +15,29 @@ header {
     text-align: center;
     padding: 1em;
     margin-bottom: 1em;
+    box-shadow: 0 3px 5px gray;
 }
 
 h1 {
     margin-top: 0;
 }
 
-header p {
-    display: inline;
-}
 
 .main-content {
     flex: 1;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    margin: 5px;
 }
 
 footer {
