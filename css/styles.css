@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #553555;
+    background-color: #675682;
     color: white;
     text-align: center;
     padding: 1em;
@@ -40,11 +40,60 @@ h1 {
 }
 
 .contact-wrapper {
-    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: #67AECA;
 }
 
+.contact-wrapper p {
+    padding: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin: 6px 0 16px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+label {
+    display: block;
+    float: left;
+}
+
+.form-input {
+    width: 80%;
+    margin: auto;
+}
+
+textarea {
+    height: 100px;
+}
+
+form {
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: #E52A6F;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+
+.btn-submit:hover {
+    background-color: #cc195b; 
+    color: white;
+  }
+
 footer {
-    background-color: lightgray;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 1em;
 
