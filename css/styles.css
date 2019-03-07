@@ -7,15 +7,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow: visible;
-    font-size: 30px;
 }
 
 header {
     background-color: #675682;
     color: white;
     text-align: center;
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 20px 0px;
     box-shadow: 0 3px 5px gray;
 }
 
@@ -30,6 +28,7 @@ h1 {
 
 .main-content {
     flex: 1;
+    margin-top: 15px;
 }
 
 .images {
@@ -43,21 +42,24 @@ h1 {
 .images img {
     width: 100%;
     height: auto;
-    margin: 15px 0px;
+    margin-bottom: 15px;
 }
 
 .contact-wrapper {
     width: 85%;
     margin: auto;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 1px;
     text-align: center;
     background-color: #67AECA;
 }
 
 .contact-wrapper p {
-    padding: 30px;
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
 }
 
 input[type="text"],
@@ -67,7 +69,7 @@ textarea {
     border-radius: 3px;
     border: 1px solid #ccc;
     width: 100%;
-    height: 50px;
+    height: 40px;
 }
 
 label {
@@ -76,16 +78,12 @@ label {
 }
 
 .form-input {
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 
 textarea {
-    height: 100px;
-}
-
-form {
-    text-align: center;
+    height: 170px;
 }
 
 .btn-submit {
@@ -93,6 +91,8 @@ form {
     border-radius: 3px;
     border: 1px solid gray;
     padding: 5px 10px;
+    margin-bottom: 16px;
+
 }
 
 .btn-submit:hover {
@@ -104,5 +104,9 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+}
+
+@media (min-width: 750px) {
+
 }
