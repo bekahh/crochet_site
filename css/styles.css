@@ -27,8 +27,6 @@ h1 {
     margin-top: 0;
 }
 
-
-
 form {
     text-align: center;
 }
@@ -52,7 +50,6 @@ textarea {
     height: 150px;
 }
 
-
 footer {
     background-color: black;
     color: lightgray;
@@ -62,6 +59,30 @@ footer {
 }
 
 /**** Classes ****/
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.nav li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: white
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #E52A6F;
+}
+
 .main-content {
     flex: 1;
     margin-top: 15px;
@@ -111,6 +132,7 @@ footer {
     outline-offset: 0px;
     outline: none;
 }
+
 .btn-submit {
     background-color: #E52A6F;
     border-radius: 3px;
@@ -126,6 +148,25 @@ footer {
     cursor: pointer;
   }
 
+.top {
+    text-align: center;
+}
+
+.top a {
+    color: black;
+}
+
+.top:link {
+    list-style-type: none;
+}
+.top a:link {
+    color: #675682;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: #E52A6F;
+}
 
 
 /**** Tablet Styles ****/
