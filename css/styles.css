@@ -37,12 +37,14 @@ h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
+
 }
 
 .images img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    border-radius: 3px;
 }
 
 .contact-wrapper {
@@ -52,6 +54,7 @@ h1 {
     padding-top: 1px;
     text-align: center;
     background-color: #67AECA;
+    border-radius: 3px;
 }
 
 .contact-wrapper p {
@@ -83,7 +86,7 @@ label {
 }
 
 textarea {
-    height: 170px;
+    height: 150px;
 }
 
 .btn-submit {
@@ -98,13 +101,15 @@ textarea {
 .btn-submit:hover {
     background-color: #cc195b; 
     color: white;
+    cursor: pointer;
   }
 
 footer {
     background-color: black;
-    color: white;
+    color: lightgray;
     text-align: center;
     padding: 20px;
+    font-size:12px;
 }
 
 @media (min-width: 750px) {
