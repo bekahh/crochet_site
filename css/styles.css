@@ -85,6 +85,16 @@ label {
     margin: auto;
 }
 
+.form-input input:focus,
+.form-input textarea:focus {
+    border: 1px solid #E52A6F;
+    box-shadow: 0 0 3px #E52A6F;
+    outline-color: #E52A6F;
+    outline-offset: 0px;
+    outline: none;
+}
+
+
 textarea {
     height: 150px;
 }
