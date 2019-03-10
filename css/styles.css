@@ -98,7 +98,6 @@ footer {
     flex-direction: column;
     width: 90%;
     margin: auto;
-    margin-bottom: 30px;
 
 }
 
@@ -107,10 +106,24 @@ footer {
     height: auto;
     margin-bottom: 15px;
     border-radius: 3px;
+
+}
+
+.about {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.about p {
+    padding: 0 5px;
 }
 
 .contact-wrapper {
-    width: 85%;
+    width: 90%;
     margin: auto;
     margin-bottom: 20px;
     padding-top: 1px;
