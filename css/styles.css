@@ -3,7 +3,7 @@
 /**** Element Styles ****/
 body {
     margin: 0;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Amaranth', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,7 +14,7 @@ header {
     background-color: #675682;
     color: white;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 0px 0px 0px;
     box-shadow: 0 3px 5px gray;
 }
 
@@ -62,17 +62,22 @@ footer {
 
 .nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     padding: 0;
+    margin-bottom: 0;
+    /* background-color: #5f0F4E; */
 }
 .nav li {
     list-style-type: none;
     text-align: center;
-    padding: 10px;
+    padding: 15px 10px;
 }
 
 .nav a {
-    color: white
+    color: white;
+    width: 100%;
+    display: block;
 }
 
 .nav a:link {
@@ -146,7 +151,7 @@ footer {
     background-color: #cc195b; 
     color: white;
     cursor: pointer;
-  }
+}
 
 .top {
     text-align: center;
