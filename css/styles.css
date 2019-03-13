@@ -108,12 +108,15 @@ footer {
     border-radius: 3px;
 }
 
+.button-wrapper {
+    display: none;
+}
+
 .about {
     width: 90%;
-    margin: auto;
+    margin: 15px auto 0 auto;
     text-align: center;
     border: 1px solid gray;
-    margin-bottom: 15px;
     border-radius: 3px;
 }
 
@@ -123,8 +126,7 @@ footer {
 
 .contact-wrapper {
     width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 30px auto;
     padding-top: 1px;
     text-align: center;
     background-color: #67AECA;
@@ -187,7 +189,12 @@ footer {
 
 
 /**** Tablet Styles ****/
-@media (min-width: 750px) {
+@media (min-width: 700px) {
+    
+    header p {
+        width: 60%;
+    }
+    
     .img-wrap-tab {
         display: flex;
         flex-direction: row;
@@ -195,16 +202,25 @@ footer {
         justify-content: space-evenly;
         align-items: flex-start;
         width: 95%;
-
     }
 
     .img-tab {
         width: 48%;
-        /* height: 446px; */
-        
+    }
+
+
+    .about {
+        width: 70%;
+    }
+
+    .contact-wrapper {
+        width: 50%;
     }
 
 }
 
 
 /**** Desktop Styles ****/
+@media (min-width: 1200px) {
+
+}
