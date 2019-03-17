@@ -15,7 +15,7 @@ header {
     background-color: #675682;
     color: white;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px;
     box-shadow: 0 3px 5px gray;
 
 }
@@ -192,12 +192,15 @@ footer {
 /**** Tablet Styles ****/
 @media (min-width: 700px) {
     
-    header a {
-        font-size: 1.5em;
+    header {
+        display: flex;
+        justify-content: space-around; 
     }
 
-    header p {
-        width: 60%;
+
+
+    header a {
+        font-size: 1.5em;
     }
 
     .main-content {
