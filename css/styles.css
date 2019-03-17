@@ -29,7 +29,7 @@ h1 {
 }
 
 img {
-    box-shadow: 3px 3px 10px #5F0F4E;
+    border: 10px solid #5F0F4E;
 }
 
 form {
