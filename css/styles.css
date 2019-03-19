@@ -59,7 +59,7 @@ footer {
     font-size:12px;
 }
 
-/**** Classes ****/
+/**** Classes and IDs****/
 
 .nav {
     display: flex;
@@ -130,8 +130,16 @@ footer {
     border-radius: 3px;
 }
 
-.contact-wrapper p {
+.contact-text {
     font-size: 20px;
+}
+
+#nameError p,
+#emailError p,
+#messageError p {
+    margin-top: 0;
+    text-align: left;
+
 }
 
 .form-input {

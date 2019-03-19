@@ -20,6 +20,7 @@
         </header>
 
         <div class="main-content">
+            <!--Images-->
             <div class="img-wrap-base img-wrap-tab img-wrap-desktop">
                 <img src="img/dinosaur_blanket.jpg" alt="A blanket with dinosaurs" class="img-base img-tab img-desktop">
                 <img src="img/owl_blanket.jpg" alt="A blanket with owls in different green tones" class="img-base img-tab img-desktop"> 
@@ -35,27 +36,31 @@
                     <button type="button">Shrink Images</button>
                 </div>
             </div>
-
+            
             <div class="secondary-wrapper">
+                <!--About Me-->
                 <div id="about-me" class="about col">
                     <h2>About Me</h2>
                     <p>Every single thing in the world has its own personality - and it is up to you to make friends with the little rascals. It's amazing what you can do with a little love in your heart. Absolutely no pressure. You are just a whisper floating across a mountain. We'll put some happy little leaves here and there.</p>
                 </div>
-
+                <!--Contact Me Form-->
                 <div id="contact" class="contact-wrapper col">
-                    <p>Want to know more?<br>Contact me!</p>
-                    <form action="index.html" method="post">
+                    <p class='contact-text'>Want to know more?<br>Contact me!</p>
+                    <form id="contact-form" action="" method="post" onsubmit="return validate()">
                         <div class="form-input">
                             <label for="name">Name:</label>
                             <input type="text" id="name" name="user_name"><br>
+                            <div id='nameError'></div>
                         </div>
                         <div class="form-input">
                             <label for="email">Email:</label>
                             <input type="email" id="email" name="user_email"><br>
+                            <div id='emailError'></div>
                         </div>
                         <div class="form-input">
                             <label for="message">Message:</label>
                             <textarea id="message" name="user_message"></textarea>
+                            <div id='messageError'></div>
                         </div>
                         <input class="btn-submit" type="submit" value="submit">
                     </form>
@@ -67,5 +72,6 @@
         </div> <!--.main-content end -->
 
         <footer><p>&copy; 2019 All Rights Reserved</p></footer>
+        <script src="js/app.js"></script>
     </body>
 </html>
