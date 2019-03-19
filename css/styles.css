@@ -24,7 +24,7 @@ header a {
 }
 
 img {
-    border: 10px solid #5F0F4E;
+    border: 10px solid #190026;
 }
 
 form {
@@ -72,7 +72,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #190026;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 0 10px;
 }
 
@@ -119,7 +119,7 @@ footer {
     text-align: center;
     border: 1px solid gray;
     border-radius: 3px;
-    background-color: #5F0F4E;
+    background-color: #190026;
     color: #f9d6ff;
 }
 
@@ -206,7 +206,7 @@ footer {
     h1 {
         background-color: #190026;
         padding: 15px;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 
     .main-header {
