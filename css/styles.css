@@ -119,6 +119,11 @@ footer {
     color: white;
 }
 
+.about p {
+    line-height: 1.9;
+    padding: 0 10px;
+}
+
 .contact-wrapper {
     width: 90%;
     margin: 30px auto;
@@ -192,7 +197,7 @@ footer {
 
 
 /**** Tablet Styles ****/
-@media (min-width: 790px) {
+@media (min-width: 700px) {
     
     header {
         display: flex;
