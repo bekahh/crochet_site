@@ -109,10 +109,6 @@ footer {
     border-radius: 3px;
 }
 
-.button-wrapper {
-    display: none;
-}
-
 .about {
     width: 90%;
     margin: 15px auto 0 auto;
@@ -120,7 +116,7 @@ footer {
     border: 1px solid gray;
     border-radius: 3px;
     background-color: #190026;
-    color: #f9d6ff;
+    color: white;
 }
 
 .contact-wrapper {
