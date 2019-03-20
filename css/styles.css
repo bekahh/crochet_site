@@ -19,9 +19,11 @@ header {
     box-shadow: 0 3px 5px gray;
 }
 
+
 h1 a {
     text-decoration: none;
     color: white;
+    font-size: 1.2em;
 }
 
 img {
@@ -208,6 +210,9 @@ footer {
         border-radius: 15px;
     }
 
+    h1 a {
+        font-size: 1.5em;
+    }
 
     .main-header {
         padding-left:20px;
@@ -261,9 +266,7 @@ footer {
         padding-left:50px;
     }
 
-    h1 a {
-        font-size: 1.5em;
-    }
+
 
     .nav {
         padding-right: 50px;
