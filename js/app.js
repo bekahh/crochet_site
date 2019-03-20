@@ -1,5 +1,5 @@
 
-
+// Validate that the name, email, and message parts of the form are filled out before submitting.
 function validate() {
     var contactName = document.getElementById("name").value;
     var contactEmail = document.getElementById("email").value;

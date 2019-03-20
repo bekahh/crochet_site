@@ -19,9 +19,14 @@ header {
     box-shadow: 0 3px 5px gray;
 }
 
-header a {
-    font-size: 1.5em;
+h1 a {
+    text-decoration: none;
+    color: white;
 }
+
+/* header li a {
+    font-size: 1.5em;
+} */
 
 img {
     border: 10px solid #190026;
@@ -80,9 +85,6 @@ footer {
     color: white;
     width: 100%;
     display: block;
-}
-
-.nav a:link {
     text-decoration: none;
 }
 
@@ -197,7 +199,7 @@ footer {
 
 
 /**** Tablet Styles ****/
-@media (min-width: 700px) {
+@media (min-width: 769px) {
     
     header {
         display: flex;
@@ -210,6 +212,7 @@ footer {
         border-radius: 15px;
     }
 
+
     .main-header {
         padding-left:20px;
     }
@@ -221,6 +224,7 @@ footer {
     .nav li {
         padding: 15px;
         align-self: center;
+        font-size: 1.5em;
     }
 
     .main-content {
@@ -259,6 +263,10 @@ footer {
 
     .main-header {
         padding-left:50px;
+    }
+
+    h1 a {
+        font-size: 1.5em;
     }
 
     .nav {
