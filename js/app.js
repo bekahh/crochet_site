@@ -1,4 +1,3 @@
-
 // Validate that the name, email, and message parts of the form are filled out before submitting.
 function validate() {
     var contactName = document.getElementById("name").value;
@@ -11,11 +10,10 @@ function validate() {
     } else if (contactEmail == '') {
         document.getElementById("email").style.border = "2px solid #E52A6F";
         document.getElementById("emailError").innerHTML = "<p>Please enter your email address.</p>";
-        return false;        
+        return false;     
     } else if (contactMessage == '') {
         document.getElementById("message").style.border = "2px solid #E52A6F";
         document.getElementById("messageError").innerHTML = "<p>Please enter a message.</p>";
         return false;
     }
-
 }
