@@ -102,11 +102,16 @@ footer {
     margin: auto;
 }
 
+.img-wrapper {
+    width: 100%;
+}
+
 .img-base {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
     border-radius: 3px;
+    box-sizing: border-box;
 }
 
 .about {
@@ -241,8 +246,12 @@ footer {
         width: 95%;
     }
 
-    .img-tab {
+    .img-wrapper {
         width: 45%;
+    }
+
+    .img-tab {
+        width: 100%;
     }
 
     .about {
@@ -266,15 +275,17 @@ footer {
         padding-left:50px;
     }
 
-
-
     .nav {
         padding-right: 50px;
     }
 
-    .img-desktop {
+    .img-wrapper {
         width: 30%;
     }
+
+    /* .img-desktop {
+        width: 100%;
+    } */
 
     .secondary-wrapper {
         width: 70%;
