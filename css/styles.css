@@ -104,13 +104,12 @@ footer {
 
 .img-wrapper {
     width: 100%;
+    margin-bottom: 20px;
+    border-radius: 3px;
 }
 
 .img-base {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    border-radius: 3px;
     box-sizing: border-box;
 }
 
@@ -250,10 +249,6 @@ footer {
         width: 45%;
     }
 
-    .img-tab {
-        width: 100%;
-    }
-
     .about {
         width: 60%;
     }
@@ -282,10 +277,6 @@ footer {
     .img-wrapper {
         width: 30%;
     }
-
-    /* .img-desktop {
-        width: 100%;
-    } */
 
     .secondary-wrapper {
         width: 70%;
