@@ -113,6 +113,7 @@ footer {
 .img-base {
     max-width: 100%;
     box-sizing: border-box;
+    border-radius: 3px;
 }
 
 .image-overlay {
@@ -297,6 +298,7 @@ footer {
         text-align: center;
         padding: 5%;
         box-sizing: border-box;
+        border-radius: 0 0 3px 3px;
     }
     
     .img-wrapper:hover .image-overlay {
