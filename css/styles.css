@@ -207,6 +207,11 @@ footer {
     color: #E52A6F;
 }
 
+.soon-header,
+.soon-par {
+    margin-left: 15px;
+}
+
 
 /**** Tablet Styles ****/
 @media (min-width: 769px) {
