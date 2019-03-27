@@ -17,3 +17,8 @@ function validate() {
         return false;
     }
 }
+
+document.getElementById("submit").addEventListener("click", function(event){
+    event.preventDefault();
+    window.location.replace("form-submit.html");
+});
