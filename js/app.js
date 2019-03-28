@@ -16,9 +16,6 @@ function validate() {
         document.getElementById("messageError").innerHTML = "<p>Please enter a message.</p>";
         return false;
     }
-}
-
-document.getElementById("submit").addEventListener("click", function(event){
     event.preventDefault();
     window.location.replace("form-submit.html");
-});
+}
